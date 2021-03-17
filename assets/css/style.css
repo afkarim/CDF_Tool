@@ -323,9 +323,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Home Section
 --------------------------------------------------------------*/
-#hero {
+#home {
   width: 100%;
   height: 70vh;
   background: #cde995;
@@ -333,7 +333,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin: 72px 0 -72px 0;
 }
 
-#hero h1 {
+#home h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -341,13 +341,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #4e4039;
 }
 
-#hero h2 {
+#home h2 {
   color: #a08f86;
   margin: 15px 0 0 0;
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#home .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -361,52 +361,52 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background: #0ea2bb;
 }
 
-#hero .btn-get-started:hover {
+#home .btn-get-started:hover {
   background: #ef7f4d;
 }
 
-#hero .animated {
+#home .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 @media (max-width: 991px) {
-  #hero {
+  #home {
     height: calc(100vh - 72px);
   }
-  #hero .animated {
+  #home .animated {
     -webkit-animation: none;
     animation: none;
   }
-  #hero .hero-img {
+  #home .home-img {
     text-align: center;
   }
-  #hero .hero-img img {
+  #home .home-img img {
     width: 50%;
   }
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #home h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
+  #home h2 {
     font-size: 18px;
     line-height: 24px;
   }
-  #hero .hero-img img {
+  #home .home-img img {
     width: 70%;
   }
 }
 
 @media (max-width: 575px) {
-  #hero .hero-img img {
+  #home .home-img img {
     width: 80%;
   }
 }
 
 @media (max-height: 600px) {
-  #hero {
+  #home {
     height: calc(120vh);
   }
 }
@@ -560,10 +560,15 @@ section {
   }
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 /*--------------------------------------------------------------
-# Services
+# eligibility
 --------------------------------------------------------------*/
-.services .icon-box {
+.eligibility .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -576,29 +581,29 @@ section {
   border-bottom: 3px solid #fff;
 }
 
-.services .icon-box:hover {
+.eligibility .icon-box:hover {
   transform: translateY(-5px);
   border-color: #ef7f4d;
 }
 
-.services .icon i {
+.eligibility .icon i {
   font-size: 48px;
   line-height: 1;
   margin-bottom: 15px;
   color: #ef7f4d;
 }
 
-.services .title {
+.eligibility .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.eligibility .title a {
   color: #111;
 }
 
-.services .description {
+.eligibility .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
@@ -808,6 +813,7 @@ section {
 --------------------------------------------------------------*/
 .faq {
   padding: 60px 0;
+  background: #fff;
 }
 
 .faq .faq-list {
@@ -1167,11 +1173,10 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #fff;
   padding: 0 0 30px 0;
   color: #212529;
   font-size: 14px;
-  background: #fef8f5;
+  background: #cde995;
 }
 
 #footer .footer-newsletter {
@@ -1228,7 +1233,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: #cde995;
 }
 
 #footer .footer-top .footer-contact {
